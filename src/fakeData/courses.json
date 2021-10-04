@@ -1,0 +1,56 @@
+[
+    {
+        "courseName": "HTNL",
+        "courseId": 1,
+        "img": "https://www.oxfordwebstudio.com/user/pages/06.da-li-znate/sta-je-html/sta-je-html.jpg",
+        "courseFee": 1500
+    },
+    {
+        "courseName": "CSS",
+        "courseId": 2,
+        "img": "https://cdn.mos.cms.futurecdn.net/Vp9WvV7YKdH4k8sKRePcE8-1200-80.jpg",
+        "courseFee": 1500
+    },
+    {
+        "courseName": "Bootstrap",
+        "courseId": 3,
+        "img": "https://blog.templatetoaster.com/wp-content/uploads/2019/09/What-is-Bootstrap.jpg",
+        "courseFee": 2000
+    },
+    {
+        "courseName": "React",
+        "courseId": 4,
+        "img": "https://www.freecodecamp.org/news/content/images/2021/06/Ekran-Resmi-2019-11-18-18.08.13.png",
+        "courseFee": 3000
+    },
+    {
+        "courseName": "Javascript",
+        "courseId": 5,
+        "img": "https://1.bp.blogspot.com/-pdqcVeIQp64/XDX7TzdRdcI/AAAAAAAAM8E/ZmGuB6caZqIGmEflGHcj3zgXJJrmqRLdgCLcBGAs/s400/Free%2BCourses%2Bto%2Blearn%2BJavaScript.jpg",
+        "courseFee": 3000
+    },
+    {
+        "courseName": "Tailwind",
+        "courseId": 6,
+        "img": "https://i.ytimg.com/vi/UBOj6rqRUME/maxresdefault.jpg",
+        "courseFee": 2000
+    },
+    {
+        "courseName": "Typescript",
+        "courseId": 7,
+        "img": "https://cdn-ssl-devio-img.classmethod.jp/wp-content/uploads/2020/09/typescript.png",
+        "courseFee": 3000
+    },
+    {
+        "courseName": "Python",
+        "courseId": 8,
+        "img": "https://365datascience.com/resources/blog/thumb@1024_2019-10-python-everything-you-should-know-1024x576.jpg",
+        "courseFee": 4000
+    },
+    {
+        "courseName": "PHP",
+        "courseId": 9,
+        "img": "https://i.ytimg.com/vi/OK_JCtrrv-c/mqdefault.jpg",
+        "courseFee": 4000
+    }
+]

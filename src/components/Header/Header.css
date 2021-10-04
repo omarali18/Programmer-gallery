@@ -1,0 +1,28 @@
+.banner {
+    background-image: url("../../images/header-cover.jpg");
+    height: 780px;
+    width: 100%;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+    font-size: 59px;
+  }
+  .welcome{
+    color: rgb(192, 75, 93);
+  }
+  .header nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: lightpink;
+}
+
+  
