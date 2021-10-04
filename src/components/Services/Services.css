@@ -1,0 +1,10 @@
+
+.service-container{
+    width: 75%;
+    margin: 0px auto;
+}
+.all-course-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}

@@ -15,16 +15,15 @@ const OurServices = () => {
             showFourData.push(course)
         }
     }
-    console.log(showFourData);
     return (
         <div className="card-1">
             <div className="card">
                 {
-                    showFourData.map(data => <ShowCart course={data} />)
+                    showFourData.map(data => <ShowCart course={data} key={data.courseId} />)
                 }
             </div>
-            <div>
-                <h1>idhsogf</h1>
+            <div className="d-flex justify-content-center align-items-center site-container">
+                <h1>Our discount courses</h1>
             </div>
         </div>
     );

@@ -1,14 +1,17 @@
 .card-1{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* grid-gap: 20px; */
-    /* padding: 10px; */
+    grid-gap: 20px;
+    margin: 0 50px;
 }
 .card{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-gap: 30px;
-    /* padding: 10px; */
     border: none;
 
+}
+.site-container{
+    color: rgb(68, 56, 56);
+    background-color: rgb(189, 167, 170);
 }
