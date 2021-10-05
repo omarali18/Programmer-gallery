@@ -7,7 +7,7 @@ const ContactUs = () => {
         <div>
             <Header></Header>
 
-            <h2>Please see about out course</h2>
+            <h2>Hard work will bring success in life</h2>
 
             <Footer></Footer>
 
