@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import ShowCart from '../ShowCart/ShowCart';
+import ShowHeaderCart from '../ShowHeaderCart/ShowHeaderCart';
 import "./DiscountCourses.css"
 
 const OurServices = () => {
@@ -19,11 +19,12 @@ const OurServices = () => {
         <div className="card-1">
             <div className="card">
                 {
-                    showFourData.map(data => <ShowCart course={data} key={data.courseId} />)
+                    showFourData.map(data => <ShowHeaderCart course={data} key={data.courseId} />)
                 }
             </div>
             <div className="d-flex justify-content-center align-items-center site-container ps-4">
                 <img className="w-100 h-100" src="https://images.unsplash.com/photo-1562813733-b31f71025d54?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aGFja2Vyc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="" />
+
             </div>
         </div>
     );
