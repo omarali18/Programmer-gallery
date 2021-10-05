@@ -1,0 +1,22 @@
+.mid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+.mid-text-container{
+    padding: 20px;
+    text-align: left;
+}
+.mid-text-container h2{
+    font-size: 3rem;
+}
+.mid-text-container .qsn{
+    text-align: left;
+    color: blue;
+}
+.mid-text-container p{
+    font-size: 20px;
+}
+.mid-text-container .motivation{
+    color: gray;
+}

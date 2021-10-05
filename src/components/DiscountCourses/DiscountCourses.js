@@ -17,7 +17,7 @@ const OurServices = () => {
     }
     return (
         <div className="card-1">
-            <div className="card">
+            <div className="card" id="course">
                 {
                     showFourData.map(data => <ShowHeaderCart course={data} key={data.courseId} />)
                 }
