@@ -1,7 +1,7 @@
 import React from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
-import OurServices from '../OurServices/OurServices';
+import DiscountCourses from '../DiscountCourses/DiscountCourses';
 import SignUp from '../SignUp/SignUp';
 
 
@@ -11,7 +11,7 @@ const Home = () => {
         <div>
             <Header></Header>
             <SignUp></SignUp>
-            <OurServices></OurServices>
+            <DiscountCourses></DiscountCourses>
             <Footer></Footer>
         </div>
     );

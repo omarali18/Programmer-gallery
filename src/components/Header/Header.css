@@ -1,5 +1,5 @@
 .banner {
-    background-image: url("../../images/header-cover.jpg");
+    background-image: url("../../images/header-cover-2.jpg");
     height: 780px;
     width: 100%;
     
@@ -9,23 +9,34 @@
     background-position: center;
     margin-bottom: 20px;
   }
+
+  .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .logo-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid tomato;
+  }
   .title {
     color: white;
     font-weight: bold;
     font-size: 59px;
   }
   .welcome{
-    color: rgb(192, 75, 93);
+    color: lightyellow;
   }
-  .header nav a {
-    text-decoration: none;
-    color: black;
-    margin-right: 20px;
+  
+.menu-color .menu{
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
     padding: 5px;
     font-size: 22px;
-    font-weight: 700;
-
-    /* background-color: lightpink; */
 }
 
   
