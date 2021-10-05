@@ -13,7 +13,6 @@ const Services = () => {
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
-    console.log(courses);
     return (
         <div>
             <Header></Header>
@@ -21,7 +20,7 @@ const Services = () => {
             <div className="service-container">
                 <div className="service-text">
                     <h1>Our All course here</h1>
-                    <h2>Enroll early  <i class="fas fa-smile-wink text-warning fs-1"></i></h2>
+                    <h2>Enroll early  <i className="fas fa-smile-wink text-warning fs-1"></i></h2>
                 </div>
                 <div className="all-course-cart">
                     {

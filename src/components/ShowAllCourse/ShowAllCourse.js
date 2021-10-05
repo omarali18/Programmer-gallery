@@ -3,7 +3,6 @@ import "./ShowAllCourse.css"
 
 const ShowAllCourse = (props) => {
     const { courseName, img, courseFee } = props.course
-    console.log(props);
     return (
         <div className="card-design ">
             <div>

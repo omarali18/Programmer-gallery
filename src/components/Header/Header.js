@@ -19,9 +19,9 @@ const Header = () => {
                     <h1>A Platform for Aspiring <span>Programmers</span></h1>
                     <h2>A Place to hone your <span>'Computer Programming Skills'</span></h2>
                     <h3>Monthly Programming Contests, ,<br /> Cook-off and Lunchtime</h3>
-                    <button className="btn btn-primary text-white"><a href="#course">Course <i class="fas fa-arrow-down text-warning"></i></a></button>
+                    <button className="btn btn-primary text-white"><a href="#course">Course <i className="fas fa-arrow-down text-warning"></i></a></button>
                 </div>
-                <div className="img-div">
+                <div className="img-div ">
                     <img height="697" src={coverImg} alt="" />
                 </div>
             </div>

@@ -1,8 +1,6 @@
 # Welcome to Programmer gallery
 
-This project was bootstrapped with [besite me](https://programmer-gallery.netlify.app/).
-
-## Available Scripts
+This is my first router site [besite me](https://programmer-gallery.netlify.app/).
 
 
 ### `Learn online course`
