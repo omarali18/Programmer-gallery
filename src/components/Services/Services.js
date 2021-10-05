@@ -19,7 +19,10 @@ const Services = () => {
             <Header></Header>
 
             <div className="service-container">
-                <h1>Our course</h1>
+                <div className="service-text">
+                    <h1>Our All course here</h1>
+                    <h2>Enroll early  <i class="fas fa-smile-wink text-warning fs-1"></i></h2>
+                </div>
                 <div className="all-course-cart">
                     {
                         courses.map(course => <ShowAllCourse course={course} key={course.courseId} />)

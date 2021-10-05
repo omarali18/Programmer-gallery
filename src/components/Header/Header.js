@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import img from "../../images/logo/logo.png"
 import coverImg from "../../images/hero.png"
 
 const Header = () => {
@@ -12,7 +11,7 @@ const Header = () => {
                     <Link className="menu" to="/home">Home</Link>
                     <Link className="menu" to="/about">About us</Link>
                     <Link className="menu" to="/services">Services</Link>
-                    <Link className="menu" to="/contactUs">Course details</Link>
+                    <Link className="menu" to="/Contests">Contests</Link>
                 </nav>
             </div>
             <div className="banner-container ">

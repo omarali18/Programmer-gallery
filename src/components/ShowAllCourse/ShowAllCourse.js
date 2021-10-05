@@ -1,17 +1,19 @@
 import React from 'react';
+import "./ShowAllCourse.css"
 
 const ShowAllCourse = (props) => {
     const { courseName, img, courseFee } = props.course
     console.log(props);
     return (
-        <div className=" border border border-warning rounded-3 ">
+        <div className="card-design ">
             <div>
                 <div>
-                    <img className="w-100" src={img} alt="" />
+                    <img className="w-100 card-img" src={img} alt="" />
                 </div>
                 <div>
-                    <h3>{courseName}</h3>
-                    <p>{courseFee}</p>
+                    <h3>Course name : {courseName}</h3>
+                    <p>Course price : ${courseFee}</p>
+                    <button className="enroll-btn btn btn-primary">Enroll Now</button>
                 </div>
             </div>
         </div>

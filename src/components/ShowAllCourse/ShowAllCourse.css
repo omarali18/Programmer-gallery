@@ -1,0 +1,13 @@
+
+.card-design{
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.card-img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-bottom: 15px;
+}
+.enroll-btn{
+    margin-bottom: 20px;
+}

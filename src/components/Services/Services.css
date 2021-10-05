@@ -1,10 +1,17 @@
 
 .service-container{
-    width: 75%;
-    margin: 0px auto;
+    /* width: 75%;
+    margin: 0px auto; */
+}
+.service-text{
+    background-color: rgb(251, 235, 239);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 .all-course-cart{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
+    width: 75%;
+    margin: 0px auto;
 }
